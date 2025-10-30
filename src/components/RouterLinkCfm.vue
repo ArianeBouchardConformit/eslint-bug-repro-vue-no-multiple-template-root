@@ -1,11 +1,17 @@
-<template>
-  <div>
-    <h1>RouterLinkCfm Component</h1>
-  </div>
-</template>
-
 <script>
+import * as vueRouterFile from 'vue-router'
+
 export default {
-  name: 'RouterLinkCfm'
+   name: 'RouterLinkCfm',
+   components: { RouterLink: vueRouterFile.RouterLink },
 }
 </script>
+
+<!-- eslint-disable vue/no-restricted-html-elements -->
+<template>
+   <RouterLink
+      class="router-link-cfm"
+      :custom="true"
+   />
+</template>
+<!-- eslint-enable vue/no-restricted-html-elements -->
