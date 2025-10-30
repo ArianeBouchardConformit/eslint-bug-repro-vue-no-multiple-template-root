@@ -1,0 +1,1 @@
+# eslint-bug-repro-vue-no-multiple-template-root
